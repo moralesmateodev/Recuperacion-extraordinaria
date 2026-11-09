@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: #eef2f5;
+    color: #2c3e50;
+}
+
+.blog-header {
+    background: linear-gradient(135deg, #b30000, #800000);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.blog-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-nav {
+    background-color: #1a1a1a;
+    padding: 0.8rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.blog-nav ul {
+    list-style: none;
+}
+
+.blog-nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.blog-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.blog-nav ul li a:hover {
+    color: #ff4d4d;
+}
+
+.blog-container {
+    max-width: 850px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.blog-post {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.post-header h2 {
+    color: #b30000;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 1rem;
+}
+
+.post-section {
+    margin-bottom: 2.5rem;
+}
+
+.post-section h3 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #b30000;
+    padding-left: 0.8rem;
+}
+
+.post-section p {
+    margin-bottom: 1rem;
+}
+
+.post-section ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-section ul li {
+    margin-bottom: 0.6rem;
+}
+
+.image-box {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.image-box figcaption {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.external-links li a {
+    color: #b30000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.external-links li a:hover {
+    text-decoration: underline;
+}
+
+.interactive-box {
+    background: #fdf2f2;
+    border: 1px dashed #b30000;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.interactive-box h4 {
+    margin-bottom: 1rem;
+    color: #b30000;
+}
+
+button {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #800000;
+}
+
+.feedback {
+    margin-top: 0.8rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.blog-footer {
+    text-align: center;
+    padding: 2rem;
+    background: #1a1a1a;
+    color: white;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}

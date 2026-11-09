@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #800000;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    color: #ffcccc;
+}
+
+nav {
+    background-color: #222;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4d4d;
+    text-decoration: underline;
+}
+
+/* Estilo especial para el botón del Blog en el menú */
+nav ul li a.nav-blog-btn {
+    background-color: #b30000;
+    padding: 0.4rem 0.9rem;
+    border-radius: 4px;
+    color: white;
+}
+
+nav ul li a.nav-blog-btn:hover {
+    background-color: #800000;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: white;
+    border-left: 5px solid #b30000;
+    padding: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #b30000;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.4rem;
+}
+
+.card ul {
+    margin-top: 0.8rem;
+    padding-left: 1.5rem;
+}
+
+.card ul li {
+    margin-bottom: 0.6rem;
+}
+
+.link-list li a {
+    color: #b30000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-list li a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.img-caption {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+}
+
+button {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #800000;
+}
+
+.output-text {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #b30000;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #222;
+    color: white;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
